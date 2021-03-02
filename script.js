@@ -12,7 +12,7 @@ var formSubmitHandler = function(event) {
     // get value in dropdown
     var formatField = formatField.value;
 
-    // plug this shit into a queryString probably?
+    // plug this into a queryString probably?
     var searchQuery = '?' + searchField + formatField; // this DOES NOT work rn, just a rough outline
 
     var libraryOfConURL = 'https://www.liiiiiink.com'; // needs real link
